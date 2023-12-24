@@ -5,11 +5,11 @@ import javax.swing.JOptionPane;
 public class Runner {
     public Runner(){}
     VirtualPet p = new VirtualPet();
-        p.feed();
+        // p.feed();
 
-        String ans = getResponse("How are you doing");
-        System.out.println(ans);
-    }
+        // String ans = getResponse("How are you doing");
+        // System.out.println(ans);
+    
 
     public String getResponse(String q){
         String s = (String)JOptionPane.showInputDialog(
@@ -30,7 +30,9 @@ public class Runner {
     }
 
     public static void main(String[] args) {
-        new Runner();
+        VirtualPet p1 = new VirtualPet();
+        p1.feed();
+        
     }
 }
 
