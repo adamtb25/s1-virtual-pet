@@ -5,10 +5,10 @@ import javax.swing.JOptionPane;
 public class Runner {
     public Runner(){}
     VirtualPet p = new VirtualPet();
-        // p.feed();
+        p.feed();
 
-        // String ans = getResponse("How are you doing");
-        // System.out.println(ans);
+        String ans = getResponse("How are you doing");
+        System.out.println(ans);
     
 
     public String getResponse(String q){
